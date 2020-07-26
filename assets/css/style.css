@@ -1,7 +1,10 @@
 body{
-    background-image: image("../");
     background-color: slategrey;
+    background-image: url(../imgs/bi-code-2.jpg);
 }
 main{
     color: silver;
+}
+p{
+    background-color: steelblue;
 }
