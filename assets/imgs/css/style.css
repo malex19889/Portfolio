@@ -1,0 +1,7 @@
+body{
+    background-image: image("../");
+    background-color: slategrey;
+}
+main{
+    color: silver;
+}
