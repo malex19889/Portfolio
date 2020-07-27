@@ -11,58 +11,74 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-  </nav>
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <h1 class="row">Portfolio</h1>
-                    <br>
-                    <div class="row">
-                        <div class="media">
-                            <img src="https://via.placeholder.com/150" class="align-self-start mr-3" alt="...">
-                            <div class="media-body">
-                              <!-- <h5 class="mt-0">Top-aligned media</h5> -->
-                              <p>
-                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid sint perferendis maxime molestiae eum ea, perspiciatis sunt, obcaecati dignissimos, dolores magni iste doloremque omnis quaerat natus! Ipsam enim placeat quibusdam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid sint perferendis maxime molestiae eum ea, perspiciatis sunt, obcaecati dignissimos, dolores magni iste doloremque omnis quaerat natus! Ipsam enim placeat quibusdam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid sint perferendis maxime molestiae eum ea, perspiciatis sunt, obcaecati dignissimos, dolores magni iste doloremque omnis quaerat natus! Ipsam enim placeat quibusdam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid sint perferendis maxime molestiae eum ea, perspiciatis sunt, obcaecati dignissimos, dolores magni iste doloremque omnis quaerat natus! Ipsam enim placeat quibusdam.
-                              </p>
-                            </div>
-                          </div>   
-                    </div>
-
-                </div>
-                <div class="col-md-3">
-                    <div class="card bg-light mb-3" style="max-width: 18rem;">
-                        <div class="card-header">Header</div>
-                        <div class="card-body">
-                          <h5 class="card-title">Light card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-
-                </div>
-            </div>
+    <header>
+      <!-- nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <!-- page head -->
+        <div class="row"><h1>Portfolio</h1></div>
+        <!-- main portfolio pics -->
+        <main>
+          <section class="row">
+            <div class="col-md-4">
+              <img src="https://via.placeholder.com/300" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="https://via.placeholder.com/300" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="https://via.placeholder.com/300" alt="">
+            </div>
+          </section>
+          <br>
+          <section class="row">
+            <div class="col-md-4">
+              <img src="https://via.placeholder.com/300" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="https://via.placeholder.com/300" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="https://via.placeholder.com/300" alt="">
+            </div>
+          </section>
+          <br>
+          <!-- extra row and cols for future use  -->
+          <!-- <section class="row">
+            <div class="col-md-4">
+              gggg
+            </div>
+            <div class="col-md-4">
+              ggg
+            </div>
+            <div class="col-md-4">
+              ggg
+            </div>
+          </section> -->
+        </main>
+      </div>
     </main>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
