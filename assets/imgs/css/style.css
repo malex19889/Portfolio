@@ -1,10 +1,10 @@
 
 body{
+    display: flexbox;
     background-image: url(../cpu1.jpg);
     background-color: slategrey;
 }
 main{
-    display: flexbox;
     flex-wrap: wrap;
     color: silver;
 }
