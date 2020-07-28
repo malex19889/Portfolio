@@ -16,6 +16,9 @@ a{
     font-style: italic;
     font-weight: bolder;
 }
+.floated{
+    float: left;
+}
 .rowbgc{
     background-color: steelblue;
 }
@@ -46,6 +49,7 @@ a{
     border: silver;
     border-radius: 1%;
 }
+/* stickyish */
 sticky-footer{
     position: fixed;
     bottom: 0px;
