@@ -1,4 +1,7 @@
 
+*{
+    font-family: monospace;
+}
 body{
     height: 100%;
     display: flex;
