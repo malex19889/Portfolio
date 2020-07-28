@@ -10,6 +10,11 @@ main{
     flex-wrap: wrap;
     color: silver;
 }
+a{
+    color: rgb(11, 102, 194);
+    font-style: italic;
+    font-weight: bolder;
+}
 .rowbgc{
     background-color: steelblue;
 }
