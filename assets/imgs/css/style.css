@@ -11,6 +11,10 @@ main{
 .rowbgc{
     background-color: steelblue;
 }
+.nav-link{
+    color: silver;
+    font-weight: bolder;
+}
 .img-fluid:hover{
     width: 100%;
     height: 100% ;
