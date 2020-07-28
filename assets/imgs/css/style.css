@@ -5,9 +5,9 @@ body{
     flex-direction: column;
     background-image: url(../cpu1.jpg);
     background-color: slategrey;
+    margin: 5px;
 }
 main{
-    margin: 5px;
     flex-wrap: wrap;
     color: silver;
 }
