@@ -23,6 +23,9 @@ a{
     color: silver;
     font-weight: bolder;
 }
+.img-fluid{
+    margin: 10px;
+}
 .img-fluid:hover{
     width: 100%;
     height: 100% ;
