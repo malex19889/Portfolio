@@ -70,4 +70,18 @@ sticky-footer{
     color: silver;
     text-align: center;
 }
-
+@media screen and (max-width: 420px) {
+/* adjust contact form to fit mobile screen */
+#contact{
+    display: block;
+    position: relative;
+    left: 25%;
+    background-color: steelblue;
+    border: silver;
+    border-style: groove;
+    border-radius: 1%;
+    max-width: 100%;
+    padding: 5px;
+    float: left;
+}
+}
