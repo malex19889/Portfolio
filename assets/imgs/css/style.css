@@ -48,9 +48,16 @@ a{
 }
 /* in contact.html */
 #contact{
+    display: block;
+    position: relative;
+    left: 25%;
     background-color: steelblue;
     border: silver;
+    border-style: groove;
     border-radius: 1%;
+    max-width: 50%;
+    padding: 5px;
+    
 }
 /* stickyish */
 sticky-footer{
@@ -63,3 +70,4 @@ sticky-footer{
     color: silver;
     text-align: center;
 }
+
