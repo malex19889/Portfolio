@@ -61,6 +61,13 @@ a{
     padding: 5px;
     
 }
+.portLink{
+    color: white;
+    text-align: center;
+}
+.portLink:hover{
+    color: springgreen;
+}
 /* very stuck */
 sticky-footer{
     position: fixed;
